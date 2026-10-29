@@ -11,35 +11,69 @@
     <header>
         <h1>岁美银龄</h1>
         <nav>
-            <a href="index.html">首页</a>
-            <a href="#">品牌介绍</a>
-            <a href="#">精彩课程</a>
-            <a href="#">精彩活动</a>
-            <a href="#">联系我们</a>
+            <a href="index.html" aria-current="page">首页</a>
+            <a href="about.html">品牌介绍</a>
+            <a href="courses.html">精彩课程</a>
+            <a href="activities.html">精彩活动</a>
+            <a href="contact.html">联系我们</a>
         </nav>
     </header>
 
     <main>
         <section class="hero">
             <div class="hero-text">
+                <div class="eyebrow">SUIMEI · ENJOY EVERY AGE</div>
                 <h2>每一岁，都很美。</h2>
                 <p>让热爱不止于年轻，让精彩继续发生</p>
-                <a href="#" class="hero-button">探索岁美生活</a>
+                <a href="about.html" class="hero-button">探索岁美生活 →</a>
             </div>
             
             <div class="hero-image">
                 <img id="slideshow" src="images/suimei1.jpg" alt="岁美银龄精彩活动">
                 <div class="slide-controls">
-                    <button id="prevBtn">❮</button>
-                    <button id="nextBtn">❯</button>
+                    <button id="prevBtn" type="button" aria-label="上一张图片">❮</button>
+                    <div class="slide-dots" id="slideDots" aria-label="图片切换"></div>
+                    <button id="nextBtn" type="button" aria-label="下一张图片">❯</button>
                 </div>
+                <p class="slide-caption" id="slideCaption">岁美学堂 · 让兴趣点亮生活</p>
+                <p class="illustration-note">示意插画，可替换为已获授权的活动照片</p>
             </div>
 
         </section>
+        <section class="section section-alt" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <div class="eyebrow">A LIFE FULL OF POSSIBILITIES</div>
+                    <h2>精彩生活，从这里开启</h2>
+                    <p>用兴趣连接彼此，让学习、探索与健康成为生活的日常。</p>
+                </div>
+                <div class="card-grid">
+                    <article class="feature-card"><div class="card-icon">✦</div><h3>岁美学堂</h3><p>通过艺术、文化和兴趣课程，发掘生活中的新热爱。</p><a href="courses.html">探索课程 →</a></article>
+                    <article class="feature-card"><div class="card-icon">◈</div><h3>岁美旅学</h3><p>在行走中收获知识和友谊，体验别样的精彩世界。</p><a href="activities.html">了解活动 →</a></article>
+                    <article class="feature-card"><div class="card-icon">❋</div><h3>岁美康养</h3><p>关注身心活力，拥抱积极、充实的银龄生活。</p><a href="about.html">认识品牌 →</a></article>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section-heading"><div class="eyebrow">MOMENTS OF JOY</div><h2>定格每一份热爱</h2><p>每一种尝试，都值得被珍藏。</p></div>
+                <div class="photo-grid">
+                    <article class="photo-card"><img src="images/suimei1.jpg" alt="兴趣学习主题示意插画"><div class="photo-body"><h3>悦享课堂</h3><p>探索新知识，遇见志同道合的朋友。</p></div></article>
+                    <article class="photo-card"><img src="images/suimei2.jpg" alt="旅学体验主题示意插画"><div class="photo-body"><h3>自在旅学</h3><p>让脚步带着热爱，发现旅途的惊喜。</p></div></article>
+                    <article class="photo-card"><img src="images/suimei3.jpg" alt="健康生活主题示意插画"><div class="photo-body"><h3>活力时光</h3><p>以热情拥抱每一个崭新的日子。</p></div></article>
+                </div>
+            </div>
+        </section>
+        <section class="cta"><div class="container"><h2>人生每一程，都有新的风景</h2><p>继续学习，继续探索，继续热爱。</p><a href="contact.html">联系我们 →</a></div></section>
     </main>
 
     <footer>
+        <h3>岁美银龄</h3>
+        <p>每一岁，都很美。</p>
+        <hr>
         <p>岁美银龄 · 静安校区</p>
+        <div class="footer-links"><a href="about.html">品牌介绍</a><a href="courses.html">精彩课程</a><a href="activities.html">精彩活动</a><a href="contact.html">联系我们</a></div>
+        <small>© 2026 岁美银龄 | Eric Zhou</small>
     </footer>
     
     <script src="script.js"></script>
